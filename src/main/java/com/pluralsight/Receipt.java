@@ -8,6 +8,11 @@ public class Receipt {
         String itemName = "Footballs";
         double itemPrice = 20.99;
         int totalFootballs = 5;
+        int quantity = 5;
         System.out.println("I bought" + ' ' + totalFootballs + ' ' + itemName + ' ' + "for" + ' ' + '$' + itemPrice);
+
+        // with quantity * itemPrice
+        System.out.println(("I bought" + ' ' + totalFootballs + ' ' + itemName + ' ' + "for" + ' ' + '$' + quantity * itemPrice));
+
     }
 }
