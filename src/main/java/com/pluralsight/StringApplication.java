@@ -10,5 +10,10 @@ public class StringApplication {
     boolean havePets = false;
     String niceMessage = "You're Awesome";
 
-
+        // Print out declared variables onto console
+        System.out.println(startYear);
+        System.out.println(middleInitial);
+        System.out.println(havePets);
+        System.out.println(niceMessage);
+    }
 }
