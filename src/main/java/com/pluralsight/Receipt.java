@@ -5,9 +5,9 @@ public class Receipt {
         2. Create a quantity variable (int)
         3. Build and print: EX. "You bought 3 apples for $7.10" */
 
-        String itemName = "Football";
+        String itemName = "Footballs";
         double itemPrice = 20.99;
         int totalFootballs = 5;
-        System.out.println("I bought" + ' ' + totalFootballs + ' ' + "footballs" + ' ' + "for" + ' ' + '$' + itemPrice);
+        System.out.println("I bought" + ' ' + totalFootballs + ' ' + itemName + ' ' + "for" + ' ' + '$' + itemPrice);
     }
 }
